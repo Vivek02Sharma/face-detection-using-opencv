@@ -1,7 +1,7 @@
 # Face Detection using OpenCV
 
 [![Video](https://github.com/Vivek02Sharma/face-detection-using-opencv/assets/112774647/b046cdc1-8479-4914-96fa-cf8a573302c8)
-]()
+](https://github.com/Vivek02Sharma/face-detection-using-opencv/blob/71def4bdcecc577d1d2ab056cfee1d3879827a5a/face%20detection%20output%20video.mp4)
 
 
 ## Overview
