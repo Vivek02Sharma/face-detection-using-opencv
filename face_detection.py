@@ -23,7 +23,8 @@ while True:
 
     for (x, y, w, h) in face_detect:
         cv2.rectangle(frame, (x, y), (x+w, y+h), (0, 255, 0), 3)
-
+    frame = cv2.putText(frame, "Press (Q) to quit", (10, 20),
+                        cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255, 0, 0), 1, cv2.LINE_AA)
     cv2.imshow("Video Windows", frame)
 
     if cv2.waitKey(1) == ord('q'):
