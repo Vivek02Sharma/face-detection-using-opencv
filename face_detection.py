@@ -12,6 +12,7 @@ while True:
     ret, frame = video.read()
     if not ret:
         print("INFO : End of video.")
+        break
 
     frame = cv2.flip(frame, 1)
     gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
