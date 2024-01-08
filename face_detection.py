@@ -11,7 +11,7 @@ face_cascade = cv2.CascadeClassifier(
 while True:
     ret, frame = video.read()
     if not ret:
-        print("ERROR : Failed to capture frame.")
+        print("INFO : End of video.")
 
     frame = cv2.flip(frame, 1)
     gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
